@@ -1,0 +1,7 @@
+git clone Link of of the repo
+
+git add .
+
+git commit -m"I created index.html"
+
+git push
