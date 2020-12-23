@@ -7,27 +7,72 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src='main.js'></script>
+    <style>
+        .dropbtn {
+          color: black;
+          padding: 16px;
+          font-size: 16px;
+          border: none;
+        }
+        
+        .dropdown {
+          position: relative;
+          display: inline-block;
+        }
+        
+        .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #f1f1f1;
+          min-width: 160px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          z-index: 1;
+        }
+        
+        .dropdown-content a {
+          color: teal;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+        }
+        
+        .dropdown-content a:hover {background-color: #ddd;}
+        
+        .dropdown:hover .dropdown-content {display: block;}
+        
+        .dropdown:hover .dropbtn {background-color: #3e8e41;}
+        </style>
 </head>
 <body>
     <header>
         <nav>
-            <center>
-                <p style="color: teal"; >
-                    <a href="Home.html ">
-                        <img src="home.jpg" alt="logo" width="35" height="35"/>
-                    </a>  &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;|&nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;
-                    <a href="hot-charts.html"> HOT CHARTS </a>    &nbsp; &nbsp; &nbsp;|&nbsp; &nbsp; &nbsp;
-                    <a href="news.html"> NEWS </a>    &nbsp; &nbsp;  &nbsp;|&nbsp;  &nbsp; &nbsp;
-                    <a href="videos.html"> VIDEOS </a>    &nbsp; &nbsp; &nbsp;|&nbsp;  &nbsp; &nbsp; &nbsp;
-                    <a href="photos.html"> PHOTOS </a>    &nbsp; &nbsp; &nbsp;|&nbsp; &nbsp; &nbsp;
-                    <a href="awards.html"> AWARDS </a>    &nbsp; &nbsp; &nbsp;|
-                </p>
-            </center>
-            <p>
+            <div>
                 <center>
-                    <img src="aeacharts.jpg" />
+                    <p style="color: teal"; >
+                        <a href="Home.html ">
+                            <img src="home.jpg" alt="logo" width="35" height="35"/>
+                        </a>  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;|&nbsp; &nbsp;  &nbsp; &nbsp;
+                        <a href="hot-charts.html"> HOT CHARTS </a>    &nbsp; &nbsp; &nbsp;|&nbsp; &nbsp; &nbsp;
+                        <a href="news.html"> NEWS </a>    &nbsp; &nbsp;  &nbsp;|&nbsp;  &nbsp; &nbsp;
+                        <a href="videos.html"> VIDEOS </a>    &nbsp; &nbsp; &nbsp;|&nbsp;  &nbsp; &nbsp;
+                        <a href="photos.html"> PHOTOS </a>    &nbsp; &nbsp; &nbsp;|&nbsp; &nbsp; &nbsp;
+                        <a href="awards.html"> AWARDS </a>    &nbsp; &nbsp; &nbsp;|&nbsp; &nbsp; &nbsp;
+                        <div class="dropdown">
+                            <button class="dropbtn"> MORE... </button>
+                            <div class="dropdown-content">
+                              <a href="about.html"> ABOUT </a>
+                              <a href="advertise.html"> ADVERTISE </a>
+                              <a href="support.html"> SUPPORT </a>
+                            </div>
+                          </div>
+                    </p>
                 </center>
-            </p>
+                <p>
+                    <center>
+                        <img src="aeacharts.jpg" />
+                    </center>
+                </p>
+            </div>
         </nav>
     </header>
     <br/>
