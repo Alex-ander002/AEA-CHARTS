@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: black;
+  display: flex;
+  flex-flow: row;
+  height: 100px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+header .logo {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 17px;
+  line-height: 32px;
+  color: #ffffff;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav ul li {
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 0 25px;
+  text-align: left;
+  color: #76badf;
+  text-decoration: none;
+}
+header nav ul li:hover {
+  color: #ffffff;
+}
+a {
+  text-decoration: none;
+  color: #76badf;
+}
+a:hover {
+  color: #ffffff;
+}
+
+.top-chart-top .row-2 {
+  display: flex;
+  align-items: center;
+}
+.top-chart-top .top-chart {
+  font-size: 33px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.top-chart-top .view-all {
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.top-chart-container {
+  display: flex;
+  justify-content: center;
+}
+.top-chart-container > div {
+  width: 255px;
+  min-height: 215px;
+  background-color: #76badf;
+  padding: 36px;
+  margin: 10px;
+}
+
+.top-album {
+  /* padding: 20px; */
+  position: relative;
+}
+.top-album .top {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.top-album .album {
+  height: 400px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  color: #828282;
+}
+.top-album .album .title {
+  font-weight: bold;
+}
+.top-album .album:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+.top-album .albums-container {
+  display: flex;
+  padding-top: 30px;
+}
+.top-album .album img {
+  width: 300px;
+  height: 300px;
+}
+.top-album .album div {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.ablums-background {
+  position: absolute;
+  width: 100vw;
+  height: 400px;
+  background-color: aliceblue;
+  top: 100px;
+  z-index: -1;
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 1336px) {
+}
