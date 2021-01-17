@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: black;
+  display: flex;
+  flex-flow: row;
+  height: 100px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+header .logo {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 17px;
+  line-height: 32px;
+  color: #ffffff;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav ul li {
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 0 25px;
+  text-align: left;
+  color: #76badf;
+  text-decoration: none;
+}
+header nav ul li:hover {
+  color: #ffffff;
+}
+a {
+  text-decoration: none;
+  color: #76badf;
+}
+a:hover {
+  color: #ffffff;
+}
+
+.top-chart-top .row-2 {
+  display: flex;
+  align-items: center;
+}
+.top-chart-top .top-chart {
+  font-size: 33px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.top-chart-top .view-all {
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.top-chart-container {
+  display: flex;
+  justify-content: center;
+}
+.top-chart-container > div {
+  width: 255px;
+  min-height: 215px;
+  background-color: #76badf;
+  padding: 36px;
+  margin: 10px;
+}
+
+.top-album {
+  /* padding: 20px; */
+  position: relative;
+}
+.top-album .top {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.top-album .album {
+  height: 400px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  color: #828282;
+}
+.top-album .album .title {
+  font-weight: bold;
+}
+.top-album .album:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+.top-album .albums-container {
+  display: flex;
+  padding-top: 30px;
+}
+.top-album .album img {
+  width: 300px;
+  height: 300px;
+}
+.top-album .album div {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.ablums-background {
+  position: absolute;
+  width: 100vw;
+  height: 400px;
+  background-color: aliceblue;
+  top: 100px;
+  z-index: -1;
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 1336px) {
+}
+
+.footer {
+  background-image: url("C:/Users/IZUNNA/Documents/GitHub/AEA-CHARTS/matter.jpg");
+  height: 200;
+}
+
+* {
+  box-sizing: border-box;
+}
+.card {
+  box-shadow: 0 15px 30px rgba(0,0,0,0.30), 0 11px 8px rgba(0,0,0,0.22);
+  width: 250px;
+  box-sizing: border-box;
+  transition-duration: 1s;
+}
+.card > img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+}
+.card > p {
+  font-family: cursive;
+  padding: 0px 10px 10px 10px;
+  text-align: center;
+}
+.card:hover {
+  box-shadow: 0 18px 36px rgba(0,0,0,0.30), 0 14px 11px rgba(0,0,0,0.22);
+  width: 300px;
+}
+
+.section {
+  padding: 0;
+  margin: 0;
+}
+.chartPreview {
+  content: "";
+  display: block;
+  clear: both;
+}
+.chartPreview > div {
+  height: 1111px;
+  padding: 30px;
+  float: left;
+  background: none;
+}
+.box1 {
+  width: 30%;
+}
+.box2 {
+  width: 70%;
+}
+table {
+  border-collapse: collapse;
+  color: grey;
+  width: 100%;
+
+}
+table, th, tr {
+  border: 1px solid black;
+}
+th, td {
+  padding: 5px;
+  text-align: center;
+}
+thead th:nth-child(1) {
+  width: 5%;
+}
+thead th:nth-child(2) {
+  width: 60%;
+}
+thead th:nth-child(3) {
+  width: 5%;
+}
+thead th:nth-child(4) {
+  width: 5%;
+}
+thead th:nth-child(5) {
+  width: 5%;
+}
+thead th:nth-child(6) {
+  width: 20%;
+}
