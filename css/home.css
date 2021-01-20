@@ -144,7 +144,7 @@ a:hover {
 .card > img {
   display: block;
   max-width: 100%;
-  height: auto;
+  height: 200px;
   margin: auto;
 }
 .card > p {
@@ -180,9 +180,9 @@ a:hover {
 }
 table {
   border-collapse: collapse;
-  color: grey;
+  color: black;
   width: 100%;
-
+  font-family: cursive;
 }
 table, th, tr {
   border: 1px solid black;
@@ -190,6 +190,12 @@ table, th, tr {
 th, td {
   padding: 5px;
   text-align: center;
+}
+tr:nth-child(odd) {
+  background: #ffffff;
+}
+tr:nth-child(even) {
+  background: limegreen;
 }
 thead th:nth-child(1) {
   width: 5%;
