@@ -115,3 +115,30 @@ a {
 a:hover {
   color: purple;
 }
+ol li a {
+  text-decoration: none;
+  color: black;
+}
+ol li a:hover {
+  color: black;
+}
+
+.padding {
+  padding-left: 75px;
+}
+#bold {
+  font-weight: bold;
+  font-size: 25px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h2 ~ p {
+  font-family: monospace;
+  font-size: large;
+}
+h3 ~ p a {
+  text-decoration: none;
+  color: black;
+}
+h3 ~ p a:hover {
+  color: black;
+}
