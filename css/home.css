@@ -77,8 +77,7 @@ a:hover {
   position: relative;
 }
 .top-album .top {
-  display: flex;
-  justify-content: space-between;
+  display: block;
   padding: 10px;
 }
 .top-album .album {
@@ -139,18 +138,20 @@ a:hover {
   box-shadow: 0 15px 30px rgba(0,0,0,0.30), 0 11px 8px rgba(0,0,0,0.22);
   width: 250px;
   box-sizing: border-box;
-  transition-duration: 1s;
+  transition-duration: 2s;
+  background-color: black;
 }
 .card > img {
   display: block;
   max-width: 100%;
-  height: 200px;
+  height: 150px;
   margin: auto;
 }
 .card > p {
   font-family: cursive;
-  padding: 0px 10px 10px 10px;
+  padding: 0px 5px 5px 5px;
   text-align: center;
+  color: antiquewhite;
 }
 .card:hover {
   box-shadow: 0 18px 36px rgba(0,0,0,0.30), 0 14px 11px rgba(0,0,0,0.22);
@@ -180,22 +181,22 @@ a:hover {
 }
 table {
   border-collapse: collapse;
-  color: black;
+  color: antiquewhite;
   width: 100%;
   font-family: cursive;
 }
 table, th, tr {
-  border: 1px solid black;
+  border: 1px solid limegreen;
 }
 th, td {
   padding: 5px;
   text-align: center;
 }
 tr:nth-child(odd) {
-  background: #ffffff;
+  background: black;
 }
 tr:nth-child(even) {
-  background: limegreen;
+  background: black;
 }
 thead th:nth-child(1) {
   width: 5%;

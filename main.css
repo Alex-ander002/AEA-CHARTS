@@ -2,12 +2,12 @@
   background-image: url(matter.jpg);
 }
 
-ul {
+.lists ul {
   padding-left: 20px;
   list-style-type: none;
 }
 
-ul li {
+.lists ul li {
   padding-left: 20px;
   background-image: url(music.png);
   background-position: top left;
@@ -52,15 +52,25 @@ thead th:nth-child(6) {
 .div1 {
   position: sticky;
   position: -webkit-sticky;
-  top: 0px;
-  left: 0px;
+  display: flex;
+  flex-flow: row;
   width: 100%;
+  height: 100px;
+  align-items: center;
+  justify-content: space-between;
   color: white;
-  padding: 5px;
-  font-size: 18px;
+  padding: 0 20px;
+  font-size: 20px;
+  background: black;
 }
-.div1 {
-  background: #030016;
+.div1 nav ul li {
+  padding: 0 25px;
+}
+.div1 nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
@@ -141,4 +151,19 @@ h3 ~ p a {
 }
 h3 ~ p a:hover {
   color: black;
+}
+
+.contactus {
+  border-width: thick;
+  padding: 50px;
+  margin: 50px;
+  border-style: double;
+  width: auto;
+  height: auto;
+  align-self: center;
+  background: none;
+  align-content: center;
+}
+.contactus li {
+  list-style-type: none;
 }
